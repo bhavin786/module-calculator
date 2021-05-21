@@ -1,0 +1,29 @@
+{
+  "name": "bhavin/module-calculator",
+  "description": "Integrates Magento with the custom price calculator based on user input on product view page.",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Bhavin Shah",
+      "email": "bhavinshah.sbs@gmail.com",
+      "role": "Technical Lead"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/bhavin786/module-calculator/issues"
+  },
+  "require": {
+    "php": "~7.3.17||~7.4.0||~7.4.1||~7.4.2||~7.4.3||~7.4.4||~7.4.5||~7.4.6||~7.4.7||~7.4.8"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bhavin\\Calculator\\": ""
+    }
+  }
+}
